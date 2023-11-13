@@ -4,7 +4,7 @@
 - [결과물 보기](https://web-interpark-client-1igmo82cloqtzcjf.sel5.cloudtype.app/)
 - CloudType 배포
 
-## 프로젝트 설명햣
+## 프로젝트 설명
 
 ### 적용기술
 
