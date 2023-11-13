@@ -34,7 +34,109 @@
 
 /**
  * @swagger
- * /recommend:
+ * /recommend1:
+ *   get:
+ *     summary: 상품목록
+ *     tags: [Interpark]
+ *     responses:
+ *       200:
+ *         description: 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                  good_count:
+ *                      type: int
+ *                      example: 1
+ *                  good_1:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *                  good_2:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *
+ */
+
+/**
+ * @swagger
+ * /recommend2:
+ *   get:
+ *     summary: 상품목록
+ *     tags: [Interpark]
+ *     responses:
+ *       200:
+ *         description: 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                  good_count:
+ *                      type: int
+ *                      example: 1
+ *                  good_1:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *                  good_2:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *
+ */
+
+/**
+ * @swagger
+ * /recommend3:
+ *   get:
+ *     summary: 상품목록
+ *     tags: [Interpark]
+ *     responses:
+ *       200:
+ *         description: 성공
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                  good_count:
+ *                      type: int
+ *                      example: 1
+ *                  good_1:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *                  good_2:
+ *                      example:
+ *                        link: "#"
+ *                        pic: good1.png
+ *                        product: 맥 MAC 립스틱
+ *                        ratio: 5
+ *                        price: 11,950
+ *
+ */
+
+/**
+ * @swagger
+ * /recommend4:
  *   get:
  *     summary: 상품목록
  *     tags: [Interpark]

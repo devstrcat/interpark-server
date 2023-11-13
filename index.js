@@ -103,7 +103,7 @@ app.get("/visual", (req, res) => {
 });
 // recommend 영역에 출력할 자료 요청
 // localhost:4000/visual
-app.get("/recommend", (req, res) => {
+app.get("/recommend1", (req, res) => {
   const result = {
     total: 12,
     recommend_1: {
@@ -188,6 +188,270 @@ app.get("/recommend", (req, res) => {
       url: "d.html",
       discount: 0,
       price: 0,
+    },
+  };
+  res.send(result);
+});
+app.get("/recommend2", (req, res) => {
+  const result = {
+    total: 12,
+    recommend_1: {
+      file: "images/recommend/r2_1.jpg",
+      url: "a.html",
+      p: "[쇼핑앱특가] (인앱특가 3,990원/병당333원) 아이팝 무라벨 먹는샘물 생수 2L*12펫 / 하이트진로",
+      discount: 17,
+      price: 5690,
+    },
+    recommend_2: {
+      file: "images/recommend/r2_2.jpg",
+      url: "b.html",
+      p: "[산지직송] 국내산 햇 양파 5kg 3kg 특대 (2개사면 1kg 추가증정)",
+      discount: 0,
+      price: 7900,
+    },
+    recommend_3: {
+      file: "images/recommend/r2_3.jpg",
+      url: "c.html",
+      p: "[산지직송] 포항 구룡포 제철 꽁치 과메기 및 야채세트 모음전!",
+      discount: 8,
+      price: 10830,
+    },
+    recommend_4: {
+      file: "images/recommend/r2_4.jpg",
+      url: "d.html",
+      p: "[청구할인6%]  23년산 햅쌀 10kg 골라담기, 진품경기미/수향미특/경기추청/이천",
+      discount: 3,
+      price: 31500,
+    },
+    recommend_5: {
+      file: "images/recommend/r2_5.jpg",
+      url: "e.html",
+      p: "[쇼핑앱추가쿠폰] 해태 포키 극세4+블루베리2+딸기2 /극세 44g * 8 / 빼빼로데이 / 특별한 날엔 포키",
+      discount: 26,
+      price: 9900,
+    },
+    recommend_6: {
+      file: "images/recommend/r2_6.png",
+      url: "f.html",
+      p: "산지직송 초간편 자연산 손질오징어 1kg (7미-8미)",
+      discount: 12,
+      price: 15560,
+    },
+    recommend_7: {
+      file: "images/recommend/r2_7.jpg",
+      url: "b.html",
+      p: "바다원 어포튀각 110g*5봉",
+      discount: 4,
+      price: 23900,
+    },
+    recommend_8: {
+      file: "images/recommend/r2_8.jpg",
+      url: "c.html",
+      p: "팸퍼스 베이비드라이 팬티 밴드 1박스 기저귀",
+      discount: 0,
+      price: 68900,
+    },
+    recommend_9: {
+      file: "images/recommend/r2_9.jpg",
+      url: "d.html",
+      p: "23년 제철 국내산 태안 자연산 활 꽃게 3kg 당일조업 조업즉시발송 톱밥포장 빙장포장 (키로당 3-5미)",
+      discount: 2,
+      price: 33900,
+    },
+    recommend_10: {
+      file: "images/recommend/r2_10.jpg",
+      url: "d.html",
+      p: "[11/7 오쎈 다운로드쿠폰가 7,670원] 크리오 쿨 맥스 민트 치약 100g x8개 민트/스트롱 민트 택1_I",
+      discount: 12,
+      price: 11230,
+    },
+    recommend_11: {
+      file: "images/recommend/r2_11.jpg",
+      url: "d.html",
+      p: "[컬쳐랜드] 모바일 문화상품권 1만원권_카드가능",
+      discount: 3,
+      price: 9700,
+    },
+    recommend_12: {
+      file: "images/recommend/r2_12.jpg",
+      url: "d.html",
+      p: "[특가]전병 (1kg +1kg ) 옛날과자 센베이 오란다 고급전병(실중량)",
+      discount: 20,
+      price: 10960,
+    },
+  };
+  res.send(result);
+});
+app.get("/recommend3", (req, res) => {
+  const result = {
+    total: 12,
+    recommend_1: {
+      file: "images/recommend/r3_1.jpg",
+      url: "a.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 사골곰탕500g(실온)",
+      discount: 0,
+      price: 1900,
+    },
+    recommend_2: {
+      file: "images/recommend/r3_2.jpg",
+      url: "b.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 하우촌 오장동 냉면 1인분 물냉면 비빔냉면",
+      discount: 0,
+      price: 2900,
+    },
+    recommend_3: {
+      file: "images/recommend/r3_3.jpg",
+      url: "c.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 국내산 사골곰탕 500g 외 실온 국 탕 반찬 25종 모음",
+      discount: 0,
+      price: 1900,
+    },
+    recommend_4: {
+      file: "images/recommend/r3_4.jpg",
+      url: "d.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 궁중찜닭 450g (실온)",
+      discount: 10,
+      price: 6300,
+    },
+    recommend_5: {
+      file: "images/recommend/r3_5.jpg",
+      url: "e.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 소고기미역국500g(실온)",
+      discount: 10,
+      price: 4950,
+    },
+    recommend_6: {
+      file: "images/recommend/r3_6.jpg",
+      url: "f.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 육개장500g(실온)",
+      discount: 10,
+      price: 4950,
+    },
+    recommend_7: {
+      file: "images/recommend/r3_7.jpg",
+      url: "b.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 고추장찌개500g(실온)",
+      discount: 10,
+      price: 4950,
+    },
+    recommend_8: {
+      file: "images/recommend/r3_8.jpg",
+      url: "c.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 차돌된장찌개500g(실온)",
+      discount: 10,
+      price: 4950,
+    },
+    recommend_9: {
+      file: "images/recommend/r3_9.jpg",
+      url: "d.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 닭볶음탕 450g(실온)",
+      discount: 10,
+      price: 6300,
+    },
+    recommend_10: {
+      file: "images/recommend/r3_10.jpg",
+      url: "d.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 소고기장조림130g(실온)",
+      discount: 10,
+      price: 4950,
+    },
+    recommend_11: {
+      file: "images/recommend/r3_11.jpg",
+      url: "d.html",
+      p: "★추가 3% 다운로드 쿠폰★ 교동 프리미엄 순살 갈비탕 450g(실온)",
+      discount: 10,
+      price: 6300,
+    },
+    recommend_12: {
+      file: "",
+      url: "d.html",
+    },
+  };
+  res.send(result);
+});
+app.get("/recommend4", (req, res) => {
+  const result = {
+    total: 12,
+    recommend_1: {
+      file: "images/recommend/r4_1.jpg",
+      url: "a.html",
+      p: "삼성전자 양문형냉장고 852L RS84B5001CW 가정용냉장고 [소상공인제품]",
+      discount: 10,
+      price: 1156820,
+    },
+    recommend_2: {
+      file: "images/recommend/r4_2.jpg",
+      url: "b.html",
+      p: "삼성전자 냉동고 ZRS25LSLH 247L 가정용 업소용 무료배송 무료설치 /",
+      discount: 10,
+      price: 523530,
+    },
+    recommend_3: {
+      file: "images/recommend/r4_3.jpg",
+      url: "c.html",
+      p: "캐리어 클라윈드 KRFT-122ABPWO 최신상 미니(소형) 일반냉장고 저소음 2도어 122L 전국배송 빠른설치",
+      discount: 15,
+      price: 204000,
+    },
+    recommend_4: {
+      file: "images/recommend/r4_4.jpg",
+      url: "d.html",
+      p: "LG전자 울트라HD 스마트 TV 55UQ7070 55인치 A",
+      discount: 5,
+      price: 578550,
+    },
+    recommend_5: {
+      file: "images/recommend/r4_5.jpg",
+      url: "e.html",
+      p: "쿠쿠 CRP-ST1010FW 10인용 트윈프레셔 전기압력밥솥 공식판매점 SJ",
+      discount: 14,
+      price: 201670,
+    },
+    recommend_6: {
+      file: "images/recommend/r4_6.jpg",
+      url: "f.html",
+      p: "2023 일월 온수매트 모음전/다양한 모델과 크기 선택 일월매트 일월온수매트",
+      discount: 29,
+      price: 87200,
+    },
+    recommend_7: {
+      file: "images/recommend/r4_7.jpg",
+      url: "b.html",
+      p: "[한정 특가] 일월 더마루 골드에디션 전기 카페트 매트 특대형/카본매트 일월매트 LX하우시스 친환경원단",
+      discount: 20,
+      price: 180000,
+    },
+    recommend_8: {
+      file: "images/recommend/r4_8.jpg",
+      url: "c.html",
+      p: "캐리어 KRFT-249ATMSW 미니(소형) 원룸 일반냉장고 간접냉각 저소음 실버 249L 전국배송 빠른설치",
+      discount: 15,
+      price: 327000,
+    },
+    recommend_9: {
+      file: "images/recommend/r4_9.jpg",
+      url: "d.html",
+      p: "LG전자 울트라HD 86UQ7590 스마트 TV 86인치 A",
+      discount: 5,
+      price: 1951300,
+    },
+    recommend_10: {
+      file: "images/recommend/r4_10.jpg",
+      url: "d.html",
+      p: "삼성 2구 인덕션 더플레이트 NZ60R7703PW 화이트 (소상공인제품) /",
+      discount: 12,
+      price: 227920,
+    },
+    recommend_11: {
+      file: "images/recommend/r4_11.jpg",
+      url: "d.html",
+      p: "삼성 무선청소기 제트 150W  VS15A6031N5 [소상공인제품]/",
+      discount: 12,
+      price: 333520,
+    },
+    recommend_12: {
+      file: "",
+      url: "d.html",
     },
   };
   res.send(result);
