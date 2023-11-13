@@ -30,3 +30,14 @@
  *                     type: string
  *                     example: 오늘 하루도 파이팅 하세요!
  */
+
+/**
+ * @swagger
+ * /boards:
+ *   post:
+ *     summary: 게시글 등록하기
+ *     tags: [Board]
+ *     responses:
+ *       200:
+ *         description: 성공
+ */
